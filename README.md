@@ -27,7 +27,7 @@ What you'll be using:
 **Setup your virtual environment for SQLMesh:**
 
 ```bash
-git clone https://github.com/sungchun12/sqlmesh-demos.git # clone the repo
+git clone https://github.com/TobikoData/sqlmesh-demos.git # clone the repo
 cd sqlmesh-demos # go to the root directory
 python -m venv venv # create virtual environment
 source venv/bin/activate # activate it
@@ -87,15 +87,8 @@ Run this command and watch the demo video!
 sqlmesh plan # follow the instructions in the CLI prompt
 ```
 
-TODO: add video
+More details on the demo video will be added soon!
 
-
-
-## Story #2
-
-How do I go about making a big breaking change to the logic of a core sql model?
-
-TODO
 
 ### Credits
 
