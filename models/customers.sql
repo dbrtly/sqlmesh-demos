@@ -19,7 +19,10 @@ WITH customers AS (
   FROM demo.stg_orders
 ), payments AS (
   SELECT
-    *
+    payment_id,
+    order_id,
+    payment_method,
+    amount
   FROM demo.stg_payments
 ), customer_orders AS (
   SELECT
