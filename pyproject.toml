@@ -1,0 +1,12 @@
+[project]
+name = "sqlmesh-demos"
+description = "A simple, loveable, and complete SQLMesh demo project with the goal of running multiple, realistic scenarios very fast. "
+readme = "README.md"
+requires-python = ">=3.8,<3.13"
+version = "0.1.0"
+dependencies = ["sqlmesh[web,postgres,github,bigquery]==0.131.0"]
+    
+[dependency-groups]
+dev = [
+  "pytest==8.1.1"
+]
